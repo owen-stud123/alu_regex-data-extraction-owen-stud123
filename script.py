@@ -13,17 +13,17 @@ def extract_urls(text):
     return url_pattern.findall(text)
 
 def extract_phone_numbers(text):
-    """Extracts phone numbers in various formats from the provided text."""
+    """Extracts phone numbers from the provided text."""
     phone_pattern = re.compile(r'(\(\d{3}\) \d{3}-\d{4}|\d{3}[.-]\d{3}[.-]\d{4})')
     return phone_pattern.findall(text)
 
 def extract_currency(text):
-    """Extracts currency amounts from the provided text."""
+    """Extracts the currency from the provided text."""
     currency_pattern = re.compile(r'\$\d{1,3}(?:,\d{3})*(?:\.\d{2})?')
     return currency_pattern.findall(text)
 
 if __name__ == "__main__":
-    # Get user input for text to analyze
+    # Get user input to analyze
     text = input("Enter the text for extraction: ")
 
     print("Emails:", extract_emails(text))
