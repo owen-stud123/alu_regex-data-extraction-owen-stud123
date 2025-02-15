@@ -24,7 +24,7 @@ This project is a web data extraction tool developed as part of a short-term gig
 
 ### Repo Structure:
 - README.md: Project Overview 
-- script.js: Contains the js script
+- script.py: Contains the project script
 - tests: Contains unit tests and sample input files.
 
 ### How it works:
