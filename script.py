@@ -1,5 +1,3 @@
-# Directory: src/extract_data.py
-
 import re
 
 # Regular Expressions for 4 data types
