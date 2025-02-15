@@ -26,3 +26,8 @@ This project is a web data extraction tool developed as part of a short-term gig
 - README.md: Project Overview 
 - script.js: Contains the js script
 - tests: Contains unit tests and sample input files.
+
+### How it works:
+1. When you run the script, it will prompt you in the terminal with Enter the text for extraction:.
+2. You can then enter any text you want to analyze directly in the terminal.
+3. The script will then process the input text and output the results.
